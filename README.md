@@ -13,7 +13,6 @@ This project sets up a containerized web application with a PostgreSQL database 
 5. [📜 Logs](#-logs)
 6. [🔒 Security](#-security)
 7. [🐛 Troubleshooting](#-troubleshooting)
-8. [📄 License](#-license)
 
 ---
 
@@ -55,6 +54,7 @@ This project sets up a containerized web application with a PostgreSQL database 
    ```
 
 ---
+## 📸 Screenshot
 ![Image](https://github.com/user-attachments/assets/32c62f46-95ca-4cc6-836d-999ff8f14f55)
 ## 🔌 API Endpoints
 
@@ -64,18 +64,20 @@ This project sets up a containerized web application with a PostgreSQL database 
   Request Body:
   ```json
   {
-    "first_name": "John",
-    "last_name": "Doe"
+    "first_name": "Martin",
+    "last_name": "Johny"
   }
   ```
   Response:
   ```json
   {
-    "first_name": "John",
+    "first_name": "Martin",
     "id": 1,
-    "last_name": "Doe"
+    "last_name": "Johny"
   }
   ```
+  ## 📸 Screenshot
+  ![Image](https://github.com/user-attachments/assets/6118d9eb-6ecc-4024-bfd5-3d9026cae254)
 
 - **📥 Fetch a User**  
   Method: `GET`  
@@ -83,12 +85,13 @@ This project sets up a containerized web application with a PostgreSQL database 
   Response:
   ```json
   {
-    "first_name": "John",
+    "first_name": "Martin",
     "id": 1,
-    "last_name": "Doe"
+    "last_name": "Johny"
   }
   ```
-
+  ## 📸 Screenshot
+![Image](https://github.com/user-attachments/assets/43f6fcfa-ed5a-477a-a1dc-0b2811efc24e)
 ---
 
 ## ⚖️ Scaling and Load Balancing
@@ -106,7 +109,9 @@ To scale the web application to multiple instances:
    Invoke-WebRequest -Uri http://localhost:8082/user/1 -Method GET
    ```
    Nginx will distribute the requests evenly across the instances.
-
+   ## 📸 Screenshots
+![Image](https://github.com/user-attachments/assets/694a9d74-611f-4151-a9f1-5542164a975a)
+![Image](https://github.com/user-attachments/assets/dc8d1a4b-7b15-4893-8d93-f34cadf4fdc2)
 ---
 
 ## 📜 Logs
@@ -127,7 +132,7 @@ To scale the web application to multiple instances:
   docker-compose logs web
   docker-compose logs nginx
   ```
-
+![Image](https://github.com/user-attachments/assets/29ac47be-0bb7-443f-b563-9dfa8d264557)
 ---
 
 ## 🔒 Security
