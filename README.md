@@ -55,7 +55,7 @@ This project sets up a containerized web application with a PostgreSQL database 
    ```
 
 ---
-
+![Image](https://github.com/user-attachments/assets/ad29d866-1282-43ad-8332-d046f8f93883)
 ## 🔌 API Endpoints
 
 - **📝 Create a User**  
