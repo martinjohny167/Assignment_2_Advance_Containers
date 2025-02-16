@@ -121,6 +121,8 @@ To scale the web application to multiple instances:
   ```bash
   cat ./app/logs/app.log
   ```
+   ## 📸 Screenshot
+  ![Image](https://github.com/user-attachments/assets/29ac47be-0bb7-443f-b563-9dfa8d264557)
 
 - **🐳 Container Logs**:  
   To view logs for a specific service, use:
@@ -132,7 +134,7 @@ To scale the web application to multiple instances:
   docker-compose logs web
   docker-compose logs nginx
   ```
-![Image](https://github.com/user-attachments/assets/29ac47be-0bb7-443f-b563-9dfa8d264557)
+
 ---
 
 ## 🔒 Security
